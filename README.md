@@ -45,7 +45,7 @@ Note: The gitLab instance where I usually get android dump, not working anymore.
   ```
   - Inside you device tree folder, run:
   ```
-  bash extract-files.sh /path/directory/to/your/dump/
+  bash extract-files.sh /path/directory/to/your/rom_dump/
   ```
-  - Wait 'til finished. You'll find the blobs under android/vendor/vendorname/codename
+  - Wait until finished. You'll find the blobs under android/vendor/vendorname/codename
     
