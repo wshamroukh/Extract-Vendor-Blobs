@@ -26,8 +26,8 @@ Note: The gitLab instance where I usually get android dump, not working anymore.
 - Change directory to the rom source
 - Clone neccessary tools/scripts inside the rom source directory - most lineage based roms have these two repos cloned already:
 ```
-     git clone https://github.com/LineageOS/android_tools_extract-utils -b lineage-21.0 android/tools/extract-utils
-     git clone https://github.com/LineageOS/android_prebuilts_extract-tools -b lineage-21.0 android/prebuilts/extract-tools
+     git clone https://github.com/LineageOS/android_tools_extract-utils -b lineage-22.1 android/tools/extract-utils
+     git clone https://github.com/LineageOS/android_prebuilts_extract-tools -b lineage-22.1 android/prebuilts/extract-tools
 ```
  - Clone or Copy/Move your Existing Device Tree inside rom_source/device/vendorname/codename directory if not already cloned.
     - If you don't have yet, use aosptdtgen to generate device tree.
